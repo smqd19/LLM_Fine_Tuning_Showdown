@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.ipython/
+.profile_default/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Hugging Face / Model artifacts
+# =========================
+.cache/
+.huggingface/
+hf_cache/
+wandb/
+mlruns/
+
+# Large model checkpoints and adapters
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Datasets / generated data
+# =========================
+data/
+datasets/
+*.jsonl
+*.arrow
+*.parquet
+
+# =========================
+# Experiment outputs
+# =========================
+logs/
+outputs/
+results/
+checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Colab
+# =========================
+*.zip
+*.tar
+*.tar.gz
