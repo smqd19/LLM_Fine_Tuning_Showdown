@@ -1,39 +1,25 @@
-# Fine-Tuning Showdown: Proprietary vs Open-Source LLMs
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM-Fine_Tuning-FF6F00?style=for-the-badge" alt="LLM" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
+</p>
+
+<h1 align="center">LLM Fine-Tuning Showdown</h1>
+
+<p align="center">
+  <strong>Head-to-head comparison of LLM fine-tuning approaches — benchmarking base vs fine-tuned performance across different strategies and datasets.</strong>
+</p>
+
+---
 
 ## Overview
 
-This task is focused on **comparing fine-tuning strategies for large language models**. You will fine-tune:
+Part of a series exploring LLM fine-tuning for production use cases. See `Instructions.md` for the full experiment design, dataset preparation, training configuration, and evaluation methodology.
 
-- A **proprietary frontier model** using a managed API
-- An **open-source model** using parameter-efficient fine-tuning (QLoRA)
+## Quick Start
 
-Both models must be trained on the **same dataset** and evaluated using identical metrics to enable a fair, structured comparison.
-
-The emphasis of this project is not only model performance, but also **cost, latency, resource usage, and deployment trade-offs**.
-
-## Learning Goals
-
-By completing this assignment, you will:
-
-- Understand practical differences between proprietary and open-source fine-tuning
-- Gain experience training and evaluating both types of models
-- Develop intuition around when each approach is appropriate
-- Practice making evidence-based engineering decisions under constraints
-
-## What You Will Build
-
-- A fine-tuned proprietary model
-- A fine-tuned open-source model
-- A shared evaluation pipeline
-- A comparative analysis of results and trade-offs
-
-## Next Steps
-
-Read **INSTRUCTIONS.md** carefully before starting.
-
-It contains:
-
-- Dataset details
-- Environment setup
-- Fine-tuning requirements
-- Evaluation criteria
+```bash
+git clone https://github.com/smqd19/LLM_Fine_Tuning_Showdown.git
+cd LLM_Fine_Tuning_Showdown
+cat Instructions.md    # Full experiment guide
+```
